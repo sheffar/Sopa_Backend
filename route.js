@@ -12,7 +12,7 @@ import { searchForUser } from "./controller/searchForAttandant.js";
 import { getReport } from "./controller/getReport.js";
 import { absentees } from "./controller/Absentees.js";
 import { weeekAttedance } from "./controller/getWeek.js";
-import { EditUserInfo } from "./controller/EditUserInfo.js";
+import { EditUserInfo } from "./controller/EditUserInfo.js";       
 
 
 
