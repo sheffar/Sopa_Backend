@@ -35,6 +35,7 @@ app.use('/test', function (req, res) {
 
 const startsever = async () => {
     try {
+        console.log(typeof process.env.MONGO_URI)
         await mongoose.connect(process.env.MONGO_URI)
             .then(() => {
                 console.log("Connected to MongoDB!");
